@@ -1,0 +1,58 @@
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+#profile-photo {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#profile-photo img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+#bio {
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#bio p:first-letter {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+#hobbies {
+    padding: 20px;
+}
+
+#hobbies ul {
+    list-style-type: disc;
+}
+
+#hobbies li {
+    margin: 10px 0;
+}
+
+#hobbies li:hover {
+    color: blue;
+}
